@@ -1,1 +1,252 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500"
+      rel="stylesheet"
+    />
+    <title>Filipa Lacerda • Resume</title>
+    <meta
+      name="description"
+      content="Filipa Lacerda Resume, Frontend Engineer at Zapier"
+    />
+    <meta
+      name="keywords"
+      content="Filipa Lacerda; Frontent; Speaker; Vue.js; Author; Mentor; GitLab; Zapier;"
+    />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="content">
+        <div class="left">
+          <div class="pic">
+            <img src="images/filipa.jpg" alt="profile picture" />
+          </div>
+          <div class="about">
+            <p>Welcome!</p>
+
+            <p>My name is Filipa Lacerda and I'm a Frontend Engineer at Zapier, a speaker and a mentor.</p>
+            <p>I'm based in sunny Portugal and I'm passionate about the web & teaching.</p>
+          </div>
+          <div class="social">
+            <a href="https://twitter.com/FilipaLacerda" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://gitlab.com/filipa" target="_blank" rel="noopener noreferrer"><i class="fab fa-gitlab"></i></a>
+            <a href="https://github.com/filipalacerda" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/filipalacerda" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:lacerda.filipa@gmail.com"><i class="far fa-envelope"></i></i></a>
+          </div>
+        </div>
+        <div class="right">
+          <nav class="nav">
+            <!--<a class="nav-link" href="#upcoming-talks">Upcoming Talks</a>-->
+            <a class="nav-link" href="#talks">Talks</a>
+            <a class="nav-link" href="#blog">Blog</a>
+            <a class="nav-link" href="#podcasts">Podcasts</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#education">Education</a>
+          </nav>
+          <!--<div class="block" id="upcoming-talks">
+            <h1>Upcoming Talks</h1>
+            <div>
+              <ul>
+                
+                
+              </ul>
+            </div>
+          </div>-->
+          <div class="block" id="talks">
+            <h1>Talks</h1>
+            <ul>
+              <li><a href="https://slides.com/filipalacerda/deck-7/#/">GitLab's journey With Vue - from jQuery to GraphQL</a> @ <a href="https://connectfest.pt/">Connect Fest</a> Porto, Portugal • September 5th, 2019 </li>
+              <li><a href="https://slides.com/filipalacerda/devops-glua/">Workshop CI/CD como ferramenta de Devops</a> @ DETI, Aveiro, Portugal • April 25, 2019</li>
+              <li>
+                <a href="https://slides.com/filipalacerda/vuejs-amsterdam" target="_blank" rel="noopener noreferrer">Vuex Patterns: Why actions matter</a> @ <a href="https://www.vuejs.amsterdam">VueJS Amsterdam</a> Amsterdam, Netherlands • February 14-15, 2019
+              </li>
+
+              <li>
+                <a href="https://slides.com/filipalacerda/deck-4" target="_blank" rel="noopener noreferrer">Beyond Agile - Conversational Development at GitLab</a> @ <a href="https://devfest.gdglisbon.xyz/">GDG DevFest</a> Lisboa, Portugal • December 8, 2018
+              </li>
+
+              <li>
+                <a href="https://slides.com/filipalacerda/deck-2-3#/" rel="noopener noreferrer" target="_blank">
+                  Vue and Vuex: The good, the bad and the ugly - GitLab's use case</a> @ <a href="https://devfest.gdgcoimbra.xyz/">GDG DevFest</a>
+                Coimbra, Portugal • November 24, 2018
+              </li>
+
+              <li>
+                <a href="https://slides.com/filipalacerda/deck-2" rel="noopener noreferrer" target="_blank">
+                  Vue and Vuex: The good, the bad and the ugly</a> @ <a href="https://vuetoronto.com/">Vue Conf TO</a>
+                Toronto, Canada • November 14-16, 2018
+              </li>
+
+              <li>
+                <a href="https://slides.com/filipalacerda/deck#/" rel="noopener noreferrer" target="_blank">
+                  An overvue a tale of speed and maintainability</a> @ <a href="https://commitporto.com/2018/">Commit Porto</a>
+                Porto, Portugal • June 30, 2018
+              </li>
+
+              <li>
+                <a href="./talks/require_lx_2018/vue_talk_require_lx.pdf" target="_blank">
+                  Vuejs made my life easier</a> @ <a href="https://www.meetup.com/require-lx/events/244962193/">require('lx') - The JavaScript meetup in Lisbon</a>
+                Lisboa, Portugal • February 21, 2018
+              </li>
+
+              <li>
+                <a href="./talks/sei_18_filipa_pedro_gitlab/seium_one_tool_for_software_development_filipalacerda_pedromoreiradasilva_06_02_2018.pdf" target="_blank">
+                  One Tool for Software Development</a> @ <a href="https://2018.seium.org/speakers/">Semana da Engenharia Informática</a>
+                Braga, Portugal • February 3-11, 2018
+              </li>
+
+              <li>
+                <a href="./talks/devops_porto_2017/devopsporto_gitlab_cicd_filipalacerda_14_10_2017.pdf" target="_blank">
+                  GitLab CI/CD - An overview</a>
+                @
+                <a href="https://www.meetup.com/devopsporto/events/243356800/" rel="noopener noreferrer" target="_blank">DevOps Porto</a> Porto, Portugal • June 21-23, 2017
+              </li>
+
+              <li>
+                <a href="./talks/vue_conf_2017/vue_gitlab_2017.pdf" target="_blank">
+                  No time to refactor, how we made the Frontend awesome at GitLab with Vue.js</a>
+                @
+                <a href="https://conf.vuejs.org/" target="_blank" rel="noopener noreferrer">Vue Conf</a> WROCŁAW, Poland • June 21-23, 2017
+              </li>
+            </ul>
+          </div>
+
+          <div class="block" id="blog">
+            <h1>Blog Posts</h1>
+            <ul>
+              <li>
+                <a href="https://alligator.io/vuejs/vue-modal-component/" target="_blank" rel="noopener noreferrer">Building a Modal Component with Vue.js</a>
+              </li>
+              <li>
+                <a href="https://alligator.io/vuejs/vue-autocomplete-component/" target="_blank" rel="noopener noreferrer">Building an Autocomplete Component with Vue.js</a>
+              </li>
+              <li>
+                <a href="https://alligator.io/vuejs/vue-a11y-autocomplete/" target="_blank" rel="noopener noreferrer">How to Create an Accessible Autocomplete Component with Vue.js</a>
+              </li>
+              <li>
+                <a href="https://alligator.io/vuejs/vue-pagination-component/" target="_blank" rel="noopener noreferrer">Build a Reusable Pagination Component with Vue.js</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block" id="podcasts">
+            <h1>Podcasts</h1>
+            <ul>
+              <li>
+                <a href="http://mudopodcast.pt/mp03e03-filipa-lacerda" target="_blank" rel="noopener noreferrer">Mudo Podcast</a>
+              </li>
+              <li>
+                <a href="https://devchat.tv/views-on-vue/vov-025-gitlabs-journey-with-vue-with-filipa-lacerda-and-jacob-schatz/" target="_blank" rel="noopener noreferrer">Gitlab’s journey with Vue with Filipa Lacerda and Jacob Schatz</a>
+              </li>
+              <li>
+                <a href="https://devchat.tv/views-on-vue/vov-009-building-modal-component-with-filipa-lacerda/" target="_blank" rel="noopener noreferrer">Building Modal Component with Filipa Lacerda</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block" id="experience">
+            <h1>Experience</h1>
+            <ul>
+              <li>
+                <div class="title">Frontend Engineer</div>
+                <div class="name"><a href="https://zapier.com/" target="_blank" rel="noopener noreferrer">Zapier</a></div>
+                <div class="date">December 2019 - CURRENT</div>
+                <div class="description">
+                </div>
+              </li>
+              <li>
+                <div class="title">Senior Frontend Engineer, Release and Verify</div>
+                <div class="name"><a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">GitLab</a></div>
+                <div class="date">September 2017 - December 2019</div>
+                <div class="description">
+                  <p>Developing several Release and Verify features.</p>
+                  <p>Worked 4 months as <a href="https://gitlab.com/gitlab-org/release/docs/blob/master/quickstart/release-manager.md" target="_blabnk" rel="noopener noreferrer">Release Manager</a></p>
+                  <p>Wrote the documentation for <a href="https://docs.gitlab.com/ce/development/fe_guide/vuex.html">Vuex Patterns.</a></p>
+                  <p>Refactored several Rails features into VueJS+Vuex.</p>
+                  <p>Maintainer.</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">Frontend Engineer</div>
+                <div class="name"><a href="https://about.gitlab.com/" target="_blank" rel="noopener noreferrer">GitLab</a></div>
+                <div class="date">September 2016 - September 2017</div>
+                <div class="description">
+                  <p>Developed several CI/CD features.</p>
+                  <p>Designed the Architecture for our  Vue applications.</p>
+                  <p>Wrote Documentation for <a href="https://docs.gitlab.com/ce/development/fe_guide/vue.html" target="_blank" rel="noopener noreferrer">Vue patterns</a> and Flux state management & <a href="https://docs.gitlab.com/ce/development/fe_guide/style_guide_js.html">Internal Styleguide for Vue.</a></p>
+                  <p>Maintainer.</p>
+                </div>
+              </li>
+              <li>
+                <div class="title">Mentor</div>
+                <div class="name">
+                  <a href="https://www.linkedin.com/company/the-new-digital-school/" target="_blank" rel="noopener noreferrer">The New Digital School</a></div>
+                <div class="date">July 2018 - December 2018</div>
+                <div class="description">Frontend Mentorship - Coaching students </div>
+              </li>
+              <li>
+                <div class="title">Author</div>
+                <div class="name"><a href="https://alligator.io/" target="_blank" rel="noopener noreferrer">Alligator.io</a></div>
+                <div class="date">January 2018 - March 2018</div>
+                <div class="description">
+                  Wrote technical blog posts about Vue.js
+                </div>
+              </li>
+              <li>
+                <div class="title">Frontend Developer</div>
+                <div class="name"><a href="https://feedzai.com/" target="_blank" rel="noopener noreferrer">Feedzai</a></div>
+                <div class="date">January 2015 - September 2016</div>
+                <div class="description">
+                  Built the Frontend for a fraud prevention product using React, Redux & Webpack.
+                  Built the Frontend for several clients, on-site.
+                </div>
+              </li>
+              <li>
+                <div class="title">Frontend Developer</div>
+                <div class="company">
+                  <a href="https://www.linkedin.com/company/maisis---information-systems-lda/about/" rel="noopener noreferrer" target="_blank">Maisis - Information Systems, Lda</a></div>
+                <div class="date">March 2013 - December 2014</div>
+                <div class="description">
+                  Developed the client side of some projects with ember.js, javascript, jQuery, HTML5, CSS3 and using REST APIs;
+                  Including the development of the user experience interface.
+                  Worked with Agile Methodologies.
+                </div>
+              </li>
+              <li>
+                <div class="title">User Experience Designer</div>
+                <div class="name">
+                  <a href="https://www.linkedin.com/company/iuz-technologies/about/" rel="noopener noreferrer" target="_blank">iUZ Technologies</a></div>
+                <div class="date">November 2011 - February 2013</div>
+                <div class="description">Developed projects in JavaScript, HTML and CSS in the healthcare field</div>
+              </li>
+              <li>
+                <div class="title">Researcher</div>
+                <div class="name"><a href="https://www.linkedin.com/school/universidade-de-aveiro/" rel="noopener noreferrer" target="_blank">DeCA - Cetac.Media - Universidade de Aveiro</a></div>
+                <div class="date">November 2010 - June 2011</div>
+                <div class="description">Fundação Calouste Gulbenkian - Casa das Ciência</div>
+              </li>
+            </ul>
+          </div>
+          <div class="block" id="education">
+            <h1>Education</h1>
+            <ul>
+              <li>
+                <div class="title">MSc in Multimedia Communication - Interactive Multimedia</div>
+                <div class="name">Universidade de Aveiro</div>
+                <div class="date">2010-2012</div>
+              </li>
+              <li>
+                <div class="title">BSc in New Communication Technologies</div>
+                <div class="name">Universidade de Aveiro</div>
+                <div class="date">2007-2010</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+  </body>
+</html>
